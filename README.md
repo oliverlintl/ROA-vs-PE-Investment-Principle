@@ -9,3 +9,6 @@ We use P/E to compare a company's share price to its earning per share. In our p
 ### Ranking
 We use ranking to normalize the metrics and compare companies. We rank ROA and P/E seperatly at first. Higher the ROA, higher a company would rank in ROA ranking. And it is the opposite when it comes to P/E. The company would rank high if they have a low P/E. Note, company with negative P/E would be set to the bottom of the ranking, because they are not profitable thus has no point being included to the P/E ranking. <br> 
 Finally, after ranking ROA and P/E, we sum the ranking from both metrics and use it as a score for each company. A low final score means a stock is relatively profitable and under valued compared to other stocks in the comparison. 
+### Scatterplot
+We can use a scatterplot to help visualize stocks' ROA and P/E
+![alt text](roa_vs_pe.png)
